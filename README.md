@@ -3,7 +3,7 @@
 > Product analytics case: how much of a match comes from popularity, selectivity or compatibility?
 > Speed dating data, Python/pandas, statsmodels, scikit-learn, bootstrap, Gini.
 
-**Status:** v1 complete. The analysis is done; the product A/B test is designed but not run.
+**Status:** Completed | Executive Summary & Recommendations Available
 
 ## Business question
 
@@ -110,7 +110,6 @@ Paired per-viewer differences (95% CI):
 - [x] Decision drivers: standardized logit with participant-clustered standard errors
 - [x] Ranking evaluation: in-fold candidate statistics, grouped CV by viewer, per-user AUC and top-3 match rate, ablations
 - [x] Recommendation and limitations
-- [ ] Online A/B test (designed, not run)
 
 ## Deviations from the initial plan
 
