@@ -54,3 +54,6 @@ notebooks/    analysis, numbered
 src/          helper functions
 reports/figures/
 ```
+
+For a detailed breakdown of feature selection, mathematical definitions, 
+and data dictionary, see [METHODOLOGY.md](METHODOLOGY.md).
