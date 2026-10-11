@@ -41,6 +41,10 @@ Download instructions: see [`data/README.md`](data/README.md). Raw data is not s
 - [ ] Pair-level model with leave-one-out popularity/selectivity (to avoid leakage), grouped cross-validation by participant
 - [ ] Recommendation and limitations
 
+### Decision Drivers (Log-Odds Impact)
+
+![Decision Drivers Log-Odds](reports/figures/drivers_log_odds.png)
+
 ## Limitations (draft)
 
 Heterosexual pairs only, students of Columbia graduate programs, in-person 4-minute dates
