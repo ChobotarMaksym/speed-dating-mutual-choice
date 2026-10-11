@@ -132,7 +132,7 @@ Paired per-viewer differences (95% CI):
 ```
 data/              how to get the data (raw data is not stored)
 notebooks/         analysis notebook with outputs
-reports/figures/   Lorenz curves, decision drivers
+docs/images/   Lorenz curves, decision drivers
 METHODOLOGY.md     feature selection, data dictionary, methods
 requirements.txt
 ```
