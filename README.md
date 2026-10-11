@@ -23,6 +23,17 @@
 
 **What would change my mind:** if pair-level features gave a lift of at least +0.02 per-user AUC over the popularity + reply-propensity baseline, the recommendation would include compatibility features. They did not.
 
+## Answers to Business Questions
+
+> **Executive Verdict:** Do not invest in profile-based compatibility scoring. Recommender ranking should optimize for mutual matching by combining predicted viewer interest with **candidate response propensity**, which delivers the only verified out-of-sample ranking uplift.
+
+1. **How unequally is attention distributed?**
+   - **Moderately unequal, well above noise.** Gini of received yes-decisions is **0.286** for women and **0.351** for men (vs 0.205 and 0.257 null noise baselines). The top 20% of participants capture **34.2%** (women) and **38.3%** (men) of all inbound attention.
+2. **Does a "yes" convert less often for generous users — selectivity or popularity?**
+   - **Almost entirely popularity.** While raw match conversion drops from ~56% to ~38% (women) and ~47% to ~26% (men) as yes-rate increases, a binomial GLM reveals that the sender's own selectivity has a negligible direct penalty ($p = 0.55$ for women, weak $-0.33$ for men). Conversion is dominated by how popular the sender is ($\beta \approx 5.0$, $p < 0.001$). Generous users match less primarily because less popular users are forced to be more generous.
+3. **What predicts a mutual match out of sample?**
+   - **Candidate reply propensity dominates; pair compatibility adds zero value.** Adding candidate reply propensity (`sel_j`) yields a $+0.067$ per-user AUC lift and $+5.0$ percentage points in top-3 match rate. Adding pair-level features (interest correlation, cosine similarity, age gap, same goal/race) produces an AUC lift of **$-0.009$** (95% CI $[-0.035, +0.016]$), failing the $+0.02$ decision threshold.
+
 ## Data
 
 Speed dating experiment (Fisman & Iyengar, Columbia Business School, 2002-2004):
