@@ -33,7 +33,7 @@ Download instructions: see [`data/README.md`](data/README.md). Raw data is not s
 
 ### H1: attention is unequal beyond noise, but not extreme
 
-![Lorenz curves](docs/images/Lorenz_Curves.png)
+![Lorenz curves](docs/images/Lorenz_Curve.png)
 
 - Gini of received yes-rate: women **0.286** (95% CI 0.262-0.309), men **0.351** (0.321-0.379). The 95th percentile of a wave-aware random-allocation null is 0.205 and 0.257.
 - The top 20% of participants account for **34.2%** (women) and **38.3%** (men) of all received yes-rate (null 95th percentile: 30.3% and 33.3%).
