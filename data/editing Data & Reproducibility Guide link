@@ -13,4 +13,4 @@ If you run the notebooks directly on Kaggle:
 2. In the right sidebar, click **+ Add Input** -> search for `Speed Dating Experiment` (or use dataset slug: `annavictoria/speed-dating-experiment`).
 3. The file will be available at:
    ```python
-   /kaggle/input/datasets/annavictoria/speed-dating-experiment/Speed Dating Data.csv
+   /kaggle.com/datasets/annavictoria/speed-dating-experiment
