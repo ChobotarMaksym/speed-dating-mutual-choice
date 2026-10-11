@@ -43,7 +43,7 @@ Download instructions: see [`data/README.md`](data/README.md). Raw data is not s
 
 ### Decision Drivers (Log-Odds Impact)
 
-![Decision Drivers Log-Odds](docs/images/figures/drivers_log_odds.png)
+![Decision Drivers Log-Odds](docs/images/drivers_odds_ratio.png)
 
 ## Limitations (draft)
 
